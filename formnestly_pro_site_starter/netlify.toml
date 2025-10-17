@@ -1,1 +1,8 @@
+[build]
+  base = "formnestly_pro_site_starter"
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
